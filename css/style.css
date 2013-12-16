@@ -1,0 +1,182 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "AvenirNextLTW01-BoldCn";
+}
+.container {
+  width: 100%;
+}
+
+@media (min-width: 0px) {
+  .header {
+    background: #2dc6e3;
+    height: 550px;
+  }
+}
+@media (min-width: 940px) {
+  .header {
+    background: #2dc6e3 url('../img/header_bg.png') no-repeat center center;
+    height: 653px;
+  }
+}
+.header {
+  position: relative;
+}
+
+@media (min-width: 0px) {
+  #title {
+    width: 240px;
+    height: 278px;
+    padding: 125px 0 0 0;
+    left: -120px;
+    z-index: 2;
+  }
+  #title .star {
+    width: 260px;
+    height: 164px;
+    padding: 48px 0 0 21px;
+    margin-left: -18px;
+  }
+  #title .star .text {
+    font-size: 20px;
+    line-height: 9.5px;
+  }
+  #title .star .text .line4 {
+    font-size: 14px;
+  }
+}
+@media (min-width: 940px) {
+  #title {
+    width: 530px;
+    height: 615px;
+    padding: 275px 0 0 0;
+    left: -265px;
+    z-index: 2;
+  }
+  #title .star {
+    width: 529px;
+    height: 334px;
+    padding: 103px 0 0 50px;
+    margin-left: -18px;
+  }
+  #title .star .text {
+    font-size: 40px;
+    line-height: 17px;
+  }
+  #title .star .text .line4 {
+    font-size: 20px;
+  }
+}
+#title {
+  background: url('../img/pixel-dude.png') no-repeat;
+  background-size: contain;
+  position: absolute;
+  margin-left: 50%;
+  bottom: 0;
+}
+#title .star {
+  background: url('../img/star.png') no-repeat;
+  background-size: contain;
+}
+#title .star .text {
+  text-transform: uppercase;
+  text-align: center;
+  -ms-transform:rotate(-10deg);
+  -moz-transform:rotate(-10deg);
+  -webkit-transform:rotate(-10deg);
+  -o-transform:rotate(-10deg);
+}
+#title .star .text .line1 {
+  color: #260fff;
+}
+#title .star .text .line2 {
+  color: #2dc6e3;
+}
+#title .star .text .line3 {
+  color: #f5009f;
+}
+#title .star .text .line4 {
+  color: #000;
+}
+@media (min-width: 0px) {
+  #date {
+    width: 320px;
+    height: 468px;
+    top: 5px;
+    left: -220px;
+    padding: 100px 0 0 64px;
+    font-size: 20px;
+    line-height: 17px;
+  }
+  #date .date-tickets {
+    display: block;
+    margin-top: 8px;
+  }
+  #date .date-tickets .high_price {
+    color: #00B0F5;
+  }
+  #date .date-tickets .low_price {
+    color: #2dc6e3;
+  }
+}
+@media (min-width: 940px) {
+  #date {
+    width: 535px;
+    height: 468px;
+    top: -40px;
+    left: -660px;
+    padding: 200px 0 0 111px;
+    font-size: 30px;
+    line-height: 28px;
+  }
+  #date .date-tickets {
+    display: none;
+  }
+}
+#date {
+  background: url('../img/shooting-star.png') no-repeat;
+  background-size: contain;
+  position: absolute;
+  margin-left: 50%;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 1;
+}
+#date .location {
+  color: #ffe011;
+}
+
+@media (min-width: 0px) {
+  #tickets {
+    display: none;
+  }
+}
+@media (min-width: 940px) {
+  #tickets {
+    display: block;
+  }
+}
+#tickets {
+  background: url('../img/pixel-cloud.png') no-repeat;
+  width: 240px;
+  height: 256px;
+  position: absolute;
+  margin-left: 50%;
+  top: 50px;
+  left: 230px;
+  padding: 170px 0 0 15px;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 35px;
+  text-align: center;
+  z-index: 1;
+}
+#tickets .high_price {
+  color: #f5009f;
+}
+#tickets .low_price {
+  color: #2dc6e3;
+}
+#demi {
+  font-family: "AvenirNextLTW01-DemiCn";
+}
