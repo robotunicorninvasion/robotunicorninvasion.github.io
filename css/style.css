@@ -39,6 +39,23 @@ body {
   100% { background-position: center 652px; }
 }
 
+#facebook {
+  background: url('../img/facebook.gif') no-repeat;
+  margin-right: 45px;
+}
+#twitter {
+  background: url('../img/twitter.gif') no-repeat;
+}
+#facebook, #twitter {
+  position: absolute;
+  top: 0;
+  right: 20%;
+  display: block;
+  width: 37px;
+  height: 37px;
+  color: transparent;
+}
+
 @media (min-width: 0px) {
   #title {
     width: 240px;
