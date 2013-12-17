@@ -177,6 +177,30 @@ body {
 #tickets .low_price {
   color: #2dc6e3;
 }
-#demi {
-  font-family: "AvenirNextLTW01-DemiCn";
+
+#description {
+  text-align: center;
+  text-transform: uppercase;
 }
+#description p {
+  margin: 0px;
+}
+#description .line1  {font-size: 37px;}
+#description .line2  {font-size: 14px;font-family: "AvenirNextLTW01-DemiCn";text-transform: none;}
+#description .line3  {font-size: 40px;}
+#description .line4  {font-size: 33px;margin-bottom: -12px;}
+#description .line5  {font-size: 32px;margin-bottom: -10px;}
+#description .line6  {font-size: 71px;margin-bottom: -26px;}
+#description .line7  {font-size: 73px;}
+#description .line8  {font-size: 16px;font-family: "AvenirNextLTW01-DemiCn";text-transform: none;}
+#description .line9  {font-size: 40px;line-height: 45px;}
+#description .line10 {font-size: 33px;}
+
+.yellow   {color:#ffe011;}
+.purple   {color:#f5009f;}
+.turquois {color:#2dc6e3;}
+.blue     {color:#260fff;}
+.grey     {color:#d1d1d1;}
+.grey1    {color:#b2b2b2;}
+.color1   {color:#a8d5e6;}
+/* I'm not good with color names ;) */
