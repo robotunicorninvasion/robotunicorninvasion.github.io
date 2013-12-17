@@ -22,6 +22,22 @@ body {
 .header {
   position: relative;
 }
+#animated-arrows {
+  width: 100%;
+  height: 100%;
+  background: url('../img/arrows.png') center -652px no-repeat;
+  -webkit-animation-name: first;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-play-state: running;
+}
+@-webkit-keyframes first {
+  0% { background-position: center -652px; }
+  100% { background-position: center 652px; }
+}
 
 @media (min-width: 0px) {
   #title {
@@ -178,7 +194,19 @@ body {
   color: #2dc6e3;
 }
 
+@media (min-width: 0px) {
+  #description {
+    width: 100%;
+  }
+}
+@media (min-width: 940px) {
+  #description {
+    width: 780px;
+  }
+}
 #description {
+  float: none;
+  margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
 }
@@ -204,3 +232,36 @@ body {
 .grey1    {color:#b2b2b2;}
 .color1   {color:#a8d5e6;}
 /* I'm not good with color names ;) */
+
+#unicorn {
+  background: url('../img/unicorn_bg.gif') repeat-x;
+  text-align: center;
+}
+
+#video {
+  background: url('../img/rainbow_bg.gif') repeat-x;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 13px;
+}
+@media (min-width: 0px) {
+  .video-responsive {
+    width: 290px;
+    height: 164px;
+  }
+}
+@media (min-width: 980px) {
+  .video-responsive {
+    width: 959px;
+    height: 539px;
+  }
+}
+
+#footer {
+  padding-top: 50px;
+  text-transform: uppercase;
+  font-size: 54px;
+  color: #000;
+  background-color: #ffe011;
+  text-align: center;
+}
